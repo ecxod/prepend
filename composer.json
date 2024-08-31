@@ -1,6 +1,6 @@
 {
     "name": "ecxod/aktien",
-    "description": "Prepend Index",
+    "description": "Prepend to Index",
     "type": "library",
     "keywords": ["ecxod", "prepend"],
     "license": "MIT",
@@ -22,6 +22,7 @@
     "require": {
         "ecxod/symlink": "^1.0",
         "php": "^7.2|^7.4|^8.0|^8.2",
+        "sentry/sdk": "^4.0",
         "twig/twig": "^3.10",
         "vlucas/phpdotenv": "^5.6"
     },
