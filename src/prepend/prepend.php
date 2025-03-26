@@ -34,8 +34,6 @@ $dotenv->required('CSS')->notEmpty();
 
 $dotenv->required('DIST')->notEmpty();
 
-new \Ecxod\Symlink\symlink;
-
 if (function_exists("Sentry\init") or !empty($_ENV['SENTRY_DSN'])) {
     \Sentry\init(['dsn' => $_ENV['SENTRY_DSN']]);
 } else {
