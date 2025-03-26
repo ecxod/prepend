@@ -20,7 +20,6 @@
     ],
     "minimum-stability": "stable",
     "require": {
-        "ecxod/symlink": "^1.0",
         "php": "^7.2|^7.4|^8.0|^8.2",
         "sentry/sdk": "^4.0",
         "twig/twig": "^3.10",
